@@ -12,19 +12,19 @@ function Filter() {
             <div className="price">
             <ul>
             <li>
-            <label className="ddd" >
+            <label>
             <input type="checkbox"></input>
             10,0000
             </label>
             </li>
             <li>
-            <label className="ddd" >
+            <label>
             <input type="checkbox"></input>
             20,0000
             </label>
             </li>
             <li>
-            <label className="ddd" >
+            <label>
             <input type="checkbox"></input>
             30,0000
             </label>
