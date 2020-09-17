@@ -12,11 +12,11 @@ function Header() {
           alt="image not available"
           />
           <div className="header__option"> 
-          <span className="header__optionLineOne"><h4>MEN</h4></span>
-          <span className="header__optionLineOne"><h4>WOMEN</h4></span>
-          <span className="header__optionLineOne"><h4>KIDS</h4></span>
-          <span className="header__optionLineOne"><h4>HOME & LIVING</h4></span>
-          <span className="header__optionLineOne"><h4>OFFER</h4></span>
+          <span className="header__optionLineOne"><h4>RINGS</h4></span>
+          <span className="header__optionLineOne"><h4>EARRINGS</h4></span>
+          <span className="header__optionLineOne"><h4>GOLD COINS</h4></span>
+          <span className="header__optionLineOne"><h4>CHAINS</h4></span>
+          <span className="header__optionLineOne"><h4>OFFERS</h4></span>
           <div className="desktop__query">
           <input placeholder="Search for products, brands and more" className="desktop__searchBar" value=""></input>
           <div className="header__option"> 
