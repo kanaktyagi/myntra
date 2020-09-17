@@ -20,8 +20,10 @@ function Main() {
             alt="cant display image"
           />
        <div className="product__name">  {product.productData.categoryName}</div>
-        Rs <strong>{product.productData.price}</strong>
-         </div>
+       
+          <span style={{paddingLeft: "15px",paddingBottom: "10px"}}>₹</span> <strong >{parseInt(product.productData.specialPrice).toLocaleString()}</strong><span style={{textDecoration: "line-through", paddingLeft: "10px",  color: "rgb(124, 121, 121)", fontSize: "12px"}}>{parseInt(product.productData.price).toLocaleString()} </span>
+          <div><small style={{ paddingLeft: "15px",color: "rgb(124, 121, 121)", fontSize: "12px"}}>{product.productData.discountPercentage} off on making charges</small></div>
+          </div>
          )
          )}
         </div>
