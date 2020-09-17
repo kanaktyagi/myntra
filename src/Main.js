@@ -14,12 +14,13 @@ function Main() {
     return (
         <div className="product">
          {products.map((product) => (
-             <div>
+             <div className="product__info">
             <img className="product__image"
             src={product.categoryImages.map(url => url)}
             alt="cant display image"
           />
-         {product.productData.categoryName}
+       <div className="product__name">  {product.productData.categoryName}</div>
+        Rs <strong>{product.productData.price}</strong>
          </div>
          )
          )}

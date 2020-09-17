@@ -1,6 +1,6 @@
 
 .product {
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8;    */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -17,3 +17,20 @@
     margin-bottom: 15px;
 }
 
+.product__info:hover {
+  transform: scale(1.09);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product__info {
+    background-color: white;
+    transition: transform 450ms;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.product__name {
+    color: rgb(124, 121, 121);
+    font-weight: 500;
+    font-size: 14px;
+}
