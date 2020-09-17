@@ -255,56 +255,6 @@
          },
          {
             "productData":{
-               "categoryName":"Diamond Necklace",
-               "diamondDiscount":"0%",
-               "diamondDiscountExpiryDate":"2020-01-31",
-               "enamelType":"",
-               "goldCustomization":0,
-               "k22Price":null,
-               "k22SpecialPrice":null,
-               "karat":"18",
-               "laborPricePerGm":"2500.4348",
-               "makingChargesDiscount":"100%",
-               "mcDiscountExpiryDate":"2020-01-31",
-               "newFrom":"2018-10-26 00:00:00",
-               "preferredSize":"",
-               "price":"45454.4400",
-               "productAltText":"Diamond Necklace",
-               "productDiscount":"0%",
-               "productDiscountExpiryDate":"2020-01-31",
-               "productId":"4296",
-               "productTitle":"Double U Diamond Necklaces",
-               "quickShip":"0",
-               "quickShip18":"0",
-               "quickShip22":"0",
-               "setName":"Double U",
-               "sku":"203227",
-               "specialPrice":"32628.7098",
-               "trendName":"Knife Pleats",
-               "seasonName":"Autumn \/ Winter 2018",
-               "productType":"Diamond",
-               "wearTypeName":"Necklaces",
-               "discountPercentage":"28%",
-               "discountPercentage22k":"0%",
-               "mcDiscountAmt":12825.7303208,
-               "diamondDiscountAmt":0,
-               "productDiscountAmt":0,
-               "k22mcDiscountAmt":0,
-               "k22diamondDiscountAmt":0,
-               "k22productDiscountAmt":0
-            },
-            "images":[
-               "https:\/\/pp-melorra.s3.ap-south-1.amazonaws.com\/dev\/catalogue\/images\/PF\/OPT\/580\/W18WPF06N_C_580.jpg",
-               "https:\/\/pp-melorra.s3.ap-south-1.amazonaws.com\/dev\/catalogue\/images\/PF\/OPT\/580\/W18WPF06N_M_580.jpg",
-               "https:\/\/pp-melorra.s3.ap-south-1.amazonaws.com\/dev\/catalogue\/images\/PF\/OPT\/580\/W18WPF06N_P_580.jpg",
-               "https:\/\/pp-melorra.s3.ap-south-1.amazonaws.com\/dev\/catalogue\/images\/PF\/OPT\/580\/W18WPF06N_F_580.jpg"
-            ],
-            "categoryImages":[
-               "https:\/\/pp-melorra.s3.ap-south-1.amazonaws.com\/dev\/catalogue\/images\/PF\/OPT\/350\/JPG\/W18WPF06N_A.jpg"
-            ]
-         },
-         {
-            "productData":{
                "categoryName":"Diamond Hoop Earring",
                "diamondDiscount":"0%",
                "diamondDiscountExpiryDate":"2020-01-31",

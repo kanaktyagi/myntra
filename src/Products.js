@@ -11,7 +11,7 @@ function Products({products, loading}) {
             <div className="product__info">
            <img className="product__image"
            src={product.categoryImages.map(url => url)}
-           alt="cant display image"
+           alt="NAN"
          />
       <div className="product__name">  {product.productData.categoryName}</div>
       
