@@ -1,6 +1,6 @@
 .header {
     top: 0;
-    position: fixed;
+     position: fixed; 
     right: 0;
     left: 0;
     z-index: 10;
@@ -9,7 +9,6 @@
     background-color: #fff;
     display: flex;
     align-items: center;
-    position: sticky;
 }
 .header__logo {
     object-fit: contain;
