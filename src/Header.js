@@ -1,6 +1,6 @@
 import React from 'react';
 import  './Css/Header.css';
-import image from './image/myntra-vector-logo.png'
+import image from './image/jewelry.png'
 
 function Header() {
     return (

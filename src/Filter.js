@@ -5,17 +5,21 @@ function Filter({ parentCallback }) {
     const [value,setValue] = useState();
     const [checkedValue, setCheckedValue] = useState([]);
 
-    const handleChanged =(event) => {
+    const handleChanged = (event) => {
         const target = event.target;
         const name = target.name;
         setCheckedValue([name])
-         parentCallback([name])
+         if(target.checked) {
+            parentCallback([name])
+           }
+            else {
+                parentCallback([50000]) 
+             }
     }
     return (
         <div>
-            {console.log(checkedValue)}
             <div className="filter">
-            <div className="vertical__filters__filters">
+            <div className="vertical_filters_filters">
             <h4 className="Filter__heading">FILTERS </h4>
             <br></br>
             <div className="price">
@@ -58,5 +62,4 @@ function Filter({ parentCallback }) {
         </div>
     )
 }
-
 export default Filter

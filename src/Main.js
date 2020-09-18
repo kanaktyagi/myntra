@@ -11,7 +11,6 @@ function Main() {
 
     useEffect(() => {
         setLoading(true);
-        console.log(loading)
        setTimeout(()=>{
         const filteredData =  data.data.products.filter(product => (
             parseInt(product.productData.specialPrice) < maxPrice
@@ -19,7 +18,6 @@ function Main() {
         setproduct(filteredData)
        }, 1000) 
         setLoading(false);
-        console.log(products)
       },[maxPrice]);
 
     const  callback = ([count]) => {
