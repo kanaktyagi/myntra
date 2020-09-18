@@ -1,0 +1,12 @@
+.app_body {
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
