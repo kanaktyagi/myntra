@@ -1,6 +1,6 @@
 .header {
     top: 0;
-     position: fixed; 
+    position: fixed; 
     right: 0;
     left: 0;
     z-index: 10;
@@ -45,7 +45,6 @@
     position: inherit;
 }
 .desktop__searchBar {
-    display: inline-block;
     float: left;
     font-size: 14px;
     height: 20px;
