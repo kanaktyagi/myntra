@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Filter.css'
+import './Css/Filter.css'
 
 function Filter({ parentCallback }) {
     const [value,setValue] = useState();
@@ -60,8 +60,6 @@ function Filter({ parentCallback }) {
             </li>
             </ul>
             </div>
-           { parentCallback([checkedValue])}
-
             </div>
            
             </div>

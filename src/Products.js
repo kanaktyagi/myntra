@@ -1,5 +1,5 @@
 import React from 'react';
-import './Products.css'
+import './Css/Products.css'
 
 function Products({products, loading}) {
     if(loading) {

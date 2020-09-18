@@ -1,5 +1,5 @@
 import React from 'react';
-import  './Header.css';
+import  './Css/Header.css';
 import image from './image/myntra-vector-logo.png'
 
 function Header() {

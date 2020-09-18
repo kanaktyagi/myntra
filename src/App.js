@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header'
 import Filter from './Filter'
 import Main from './Main'
-import './App.css';
+import './Css/App.css';
 
 function App() {
   return (
