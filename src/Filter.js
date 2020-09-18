@@ -9,15 +9,7 @@ function Filter({ parentCallback }) {
         const target = event.target;
         const name = target.name;
         setCheckedValue([name])
-        // parentCallback([name])
-        if(target.checked){
-     setCheckedValue([...checkedValue,name])
-    //  parentCallback([...checkedValue,name]);
-        }else { 
-           setCheckedValue(checkedValue.filter(value => value!== name ))
-        //    parentCallback([checkedValue])
-        } 
-        parentCallback([checkedValue])
+         parentCallback([name])
     }
     return (
         <div>
@@ -27,15 +19,15 @@ function Filter({ parentCallback }) {
             <h4 className="Filter__heading">FILTERS </h4>
             <br></br>
             <div className="price">
-            <ul>
+            <ul className="remove__bullet">
             <li>
             <label>
             <input 
             type="checkbox" 
             onChange={handleChanged}
             checked={value}
-             name="10,000"></input>
-            10,0000
+             name="10000"></input>
+           Less than 10,0000
             </label>
             </li>
             <li>
@@ -43,9 +35,9 @@ function Filter({ parentCallback }) {
             <input type="checkbox"
             onChange={handleChanged}
             checked={value}
-             name="20,000"
+             name="20000"
             ></input>
-            20,0000
+           Less than 20,0000
             </label>
             </li>
             <li>
@@ -53,9 +45,9 @@ function Filter({ parentCallback }) {
             <input type="checkbox"
             onChange={handleChanged}
             checked={value}
-             name="30,000"
+             name="30000"
             ></input>
-            30,0000
+            Less than 30,0000
             </label>
             </li>
             </ul>

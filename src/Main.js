@@ -6,30 +6,32 @@ import Filter from './Filter'
 function Main() {
     const [products, setproduct] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [filter, setFilter] = useState([]);
+    const [maxPrice, setMaxPrice] = useState(50000);
+    
 
     useEffect(() => {
         setLoading(true);
         console.log(loading)
        setTimeout(()=>{
-        setproduct(data.data.products)
-       }, 2000) 
+        const filteredData =  data.data.products.filter(product => (
+            parseInt(product.productData.specialPrice) < maxPrice
+        ))
+        setproduct(filteredData)
+       }, 1000) 
         setLoading(false);
         console.log(products)
-      },[products]);
+      },[maxPrice]);
 
     const  callback = ([count]) => {
         // do something with value in parent component, like save to state
-        // setFilter([count])
+        console.log("count", count)
+        setMaxPrice(count)
     }
 
     return (
         <div style={{ display:"flex"}}>
-        {console.log("filter", filter)}
-        {console.log("hiiiii")}
     
        <Filter parentCallback={callback}/> 
-       
         < Products products={products} loading={loading} />
         </div>
     )

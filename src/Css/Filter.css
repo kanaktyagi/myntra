@@ -39,3 +39,6 @@
 .Filter__heading {
     margin: 0px;
 }
+.remove__bullet {
+    list-style-type:none;
+}
