@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import data from './data1.json'
+import data from './data/data.json'
 import Products from './Products'
 import Filter from './Filter'
 
