@@ -25,6 +25,7 @@
 }
 
 .product__info {
+    padding-right: inherit;
     background-color: white;
     transition: transform 450ms;
     margin-bottom: 20px;
